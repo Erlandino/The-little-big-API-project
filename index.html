@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pokedex</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <!-- <button id="button-prev">⬅️</button> -->
+      <a id="button-home" href="index.html">POKE DEX</a>
+      <!-- <button id="button-next">➡️</button> -->
+      <input type="text" name="search-text" id="search-text" placeholder="search" />
+
+      <input type="range" name="range-input" id="range-input" value="20" min="0" max="50" />
+      <p id="range-number">20</p>
+      <label for="range-input">How many pokemons?</label>
+    </nav>
+    <!-- main content -->
+    <div id="main" class="poke-list"></div>
+  </body>
+</html>
